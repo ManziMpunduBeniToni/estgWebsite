@@ -1,0 +1,34 @@
+:root{
+    --background:#1a3041;
+    --body:#21394e;
+    --text:#f1f8ff;
+    --lightText:#6cddff;
+}
+section.hero .slider .slide{
+    width: 100%;
+    height: 450px;
+    color: var(--text);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+}
+section.hero .slider .slide.active{
+    display: flex;
+    
+}
+section.hero .slider .slide .content{
+    text-align: center;
+}
+.content p{
+    font-size: 35px;
+}
+.content i{
+    font-size: 20px;
+    font-weight: bolder;
+    color: var(--lightText);
+}
+section.hero .slider .slide1{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5)),url(../image/bg1.jpg);
+}
